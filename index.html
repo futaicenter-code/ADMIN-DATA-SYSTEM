@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Back Office Management System</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="setup-container"></div>
+
+  <div id="app-shell" style="display:none;">
+    <aside id="sidebar">
+      <div class="brand">🏢 Back Office<br><small>Management System</small></div>
+
+      <div class="nav-group-title">ภาพรวม</div>
+      <div class="nav-item" data-route="dashboard">🏠 Dashboard</div>
+
+      <div class="nav-group-title">🚗 จัดการรถบริษัท</div>
+      <div class="nav-item" data-route="vehicles">🚗 รถทั้งหมด</div>
+
+      <div class="nav-group-title">🏍️ ประกันรถมอไซ</div>
+      <div class="nav-item" data-route="motorcycles">🏍️ ประกันรถมอไซ</div>
+
+      <div class="nav-group-title">ระบบ</div>
+      <div class="nav-item" data-route="settings">⚙️ ตั้งค่าระบบ</div>
+    </aside>
+
+    <div id="main">
+      <div id="topbar">
+        <div class="page-title" id="page-title">Dashboard</div>
+        <div class="user-email" id="user-email"></div>
+      </div>
+      <div id="content"></div>
+    </div>
+  </div>
+
+  <div id="modal-root"></div>
+  <div id="toast-root"></div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>
