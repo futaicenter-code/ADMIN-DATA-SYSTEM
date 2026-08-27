@@ -11,6 +11,6 @@
  *    ไว้ในระบบนี้ เพราะตัว Web App ต้อง deploy แบบ "Anyone" เพื่อให้ GitHub Pages เรียกข้ามโดเมนได้)
  */
 const CONFIG = {
-  API_URL: "วาง-Web-App-URL-ของคุณที่นี่",
+  API_URL: "https://script.google.com/macros/s/AKfycbwLD0XSt3SKxJLWZHL0voxSHHL5DCLo0SNjSmk2Fl5xds18gHuLKsoZkYPX7k2jtnPy/exec",
   APP_TOKEN: ""
 };
